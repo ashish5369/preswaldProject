@@ -6,6 +6,13 @@
 
 Glassdoor Insights is an interactive analytics tool designed to help organizations and job seekers gain valuable insights from Glassdoor reviews and interview experiences. This application provides comprehensive analysis of employee sentiment, workplace culture, management effectiveness, and more through an intuitive web interface.
 
+## Screenshots
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
 ## Features
 
 - **Sentiment Analysis**: Analyze positive and negative sentiment across company reviews
@@ -32,15 +39,9 @@ Glassdoor Insights is an interactive analytics tool designed to help organizatio
    cd preswaldProject
    ```
 
-2. Install dependencies:
-
+2. Run the application:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
-   streamlit run app.py
+   preswald run
    ```
 
 ## Configuration
@@ -108,10 +109,6 @@ fig = px.box(df, x="firm", y="senior_mgmt",
 st.plotly_chart(fig)
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -124,4 +121,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-Project Link: [https://github.com/yourusername/preswaldProject](https://github.com/yourusername/preswaldProject)
+Project Link: https://github.com/ashish5369/preswaldProject
