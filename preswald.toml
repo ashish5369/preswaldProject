@@ -1,0 +1,24 @@
+[project]
+title = "Glassdoor Insights"
+description = "An interactive tool for analyzing Glassdoor reviews and interview experiences"
+version = "1.0.0"
+port = 8501
+slug = "glassdoor-insights"
+entrypoint = "app.py"
+
+[branding]
+name = "Glassdoor Insights"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#6366f1"
+secondaryColor = "#4f46e5"
+
+[data.review_data]
+type = "csv"
+path = "data/glassdoor_reviews.csv"
+ignore_errors = true
+encoding = "utf-8"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
