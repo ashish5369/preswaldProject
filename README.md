@@ -109,10 +109,6 @@ fig = px.box(df, x="firm", y="senior_mgmt",
 st.plotly_chart(fig)
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
