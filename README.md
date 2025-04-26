@@ -32,15 +32,9 @@ Glassdoor Insights is an interactive analytics tool designed to help organizatio
    cd preswaldProject
    ```
 
-2. Install dependencies:
-
+2. Run the application:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
-   streamlit run app.py
+   preswald run
    ```
 
 ## Configuration
